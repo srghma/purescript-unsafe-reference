@@ -1,10 +1,18 @@
 {
   "private": true,
+  "name": "purescript-unsafe-reference",
+  "homepage": "https://github.com/purescript-contrib/purescript-unsafe-reference",
+  "description": "Unsafe referential equality.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/purescript-contrib/purescript-unsafe-reference.git"
+  },
   "scripts": {
-    "build": "eslint src && spago build --purs-args '--censor-lib --strict'",
-    "test": "spago test --no-install"
+    "build": "eslint src && spago build --censor-stats --strict --pedantic-packages",
+    "test": "spago test --offline --censor-stats --strict --pedantic-packages"
   },
   "devDependencies": {
-    "eslint": "^7.6.0"
+    "eslint": "^9.12.0"
   }
 }

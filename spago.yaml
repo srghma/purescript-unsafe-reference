@@ -1,0 +1,19 @@
+package:
+  name: unsafe-reference
+  publish:
+    license: MIT
+    version: 5.0.0
+    location:
+      githubOwner: purescript-contrib
+      githubRepo: purescript-unsafe-reference
+  dependencies:
+    - prelude
+  test:
+    main: Test.Main
+    dependencies:
+      - effect
+      - exceptions
+workspace:
+  extraPackages: {}
+  packageSet:
+    registry: 60.4.0
