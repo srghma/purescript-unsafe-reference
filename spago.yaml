@@ -1,5 +1,6 @@
 package:
   name: unsafe-reference
+  description: Unsafe referential equality.
   publish:
     license: MIT
     version: 5.0.0
